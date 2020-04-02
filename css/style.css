@@ -1,36 +1,49 @@
 /* Styles for your homework one assignment */
 body {
-  font-family: verdana;
-  width:60vh;
-  margin: auto;
+  font-family: 'Fahkwang', sans-serif;
   background-image: url('../images/beanstalk.png');
+  width: 80vh;
+  margin:auto;
+}
+
+h1{
+  font-size:45px;
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-size:25px;
+}
+
+img{
+  align-items: center;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Fahkwang', sans-serif;
+  font-weight:200;
+  text-align: center;
 }
 
 a:hover{
-  color: white;
+  color: blue;
 }
 
-.circle-holder{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+button{
+  align-items: center;
+  border: none;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
-.circle-holder div{
-  width: 200px;
-  height: 200px;
-  border-radius:50%;
-  border: 1px solid black;
-}
-
-.circle-holder div:nth-child(1){
-  background-color: #FF8599;
-}
-
-.circle-holder div:nth-child(2) {
-  background-color: #6BD3FF;
+.nav-buttons{
+  margin-top: 0;
+  margin-bottom:20px;
 }
